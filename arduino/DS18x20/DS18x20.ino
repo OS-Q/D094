@@ -1,7 +1,5 @@
 #include <OneWire.h>
-
-// OneWire DS18S20, DS18B20, DS1822 Temperature Example
-//
+// OneWire DS18S20, DS18B20, DS1822
 // http://www.pjrc.com/teensy/td_libs_OneWire.html
 //
 // The DallasTemperature library can do all this work for you!
@@ -56,7 +54,7 @@ void loop(void) {
       type_s = 0;
       break;
     default:
-      Serial.println("Device is not a DS18x20 family device.");
+      Serial.println("Device is not a DS18x20 device.");
       return;
   } 
 
@@ -64,7 +62,7 @@ void loop(void) {
   ds.select(addr);
   ds.write(0x44, 1);        // start conversion, with parasite power on at the end
   
-  delay(1000);     // maybe 750ms is enough, maybe not
+  delay(5000);     // maybe 750ms is enough, maybe not
   // we might do a ds.depower() here, but the reset will take care of it.
   
   present = ds.reset();
