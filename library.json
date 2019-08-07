@@ -1,0 +1,20 @@
+{
+  "name":   "motion",
+  "version":    "1.0.0",
+  "keywords":    "motion, axis",
+  "description": "motion Sensor",
+  "authors":
+  {
+    "name":  "qitas",
+    "email": "qitas@qitas.cn",
+     "url": "http://tang.qitas.cn"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url":  "https://github.com/OS-Q/D91.git"
+  },
+
+  "frameworks": "arduino",
+  "platforms":  "*"
+}
