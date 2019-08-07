@@ -1,20 +1,18 @@
-﻿# [单线设备](https://github.com/OS-Q/D21)
+﻿# [运动感知](https://github.com/OS-Q/D91)
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
-
-#### 归属集成设备：[W3](https://github.com/OS-Q/W3)
-
+#### 归属arduino：[W13](https://github.com/OS-Q/W13)
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
-Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
+Edge-Q -> Q[4] -> M[12] -> W[52] -> D[365]
 
-### [设备描述](https://github.com/OS-Q/D21/wiki)
+### [设备描述](https://github.com/OS-Q/D91/wiki)
 
 
 ### [开放资源](https://github.com/OS-Q/)
 
 * [文档](docs/)
 * [资源](src/)
-* [工程](project/)
+* [示例](examples/)
 
 ### [平台资源](https://github.com/sochub)
 
@@ -22,6 +20,5 @@ Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
 [SoC资源平台](https://github.com/sochub)
 
 
-
-### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/D21)
-####  2019-7-28
+### [OS-Q : Open Solution & Open Source](http://www.OS-Q.com/D91)
+####  2019-8-7
