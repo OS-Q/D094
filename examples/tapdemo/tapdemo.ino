@@ -1,9 +1,7 @@
 // Basic demo for tap/doubletap readings from Adafruit LIS3DH
 
-#include <Wire.h>
-#include <SPI.h>
 #include <LIS3DH.h>
-#include <Arduino_Sensor.h>
+
 
 // Used for software SPI
 #define LIS3DH_CLK 13

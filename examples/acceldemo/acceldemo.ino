@@ -1,7 +1,5 @@
 // Basic demo for accelerometer readings from Adafruit LIS3DH
 
-#include <Wire.h>
-#include <SPI.h>
 #include <LIS3DH.h>
 
 // Used for software SPI
