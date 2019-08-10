@@ -1,7 +1,6 @@
 #include "Arduino.h"
 
 #include <LIS3DH.h>
-#include <Wire.h>
 
 /*!
  *  @brief  Instantiates a new LIS3DH class in I2C

@@ -12,9 +12,9 @@
   "repository":
   {
     "type": "git",
-    "url":  "https://github.com/OS-Q/D91.git"
+    "url":  "https://github.com/OS-Q/D101.git"
   },
 
   "frameworks": "arduino",
-  "platforms":  "*"
+  "platforms":  "espressif,esp8266,esp32"
 }

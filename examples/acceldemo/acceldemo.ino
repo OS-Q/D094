@@ -2,8 +2,7 @@
 
 #include <Wire.h>
 #include <SPI.h>
-#include <Adafruit_LIS3DH.h>
-#include <Adafruit_Sensor.h>
+#include <LIS3DH.h>
 
 // Used for software SPI
 #define LIS3DH_CLK 14
@@ -13,11 +12,11 @@
 #define LIS3DH_CS 15
 
 // software SPI
-//Adafruit_LIS3DH lis = Adafruit_LIS3DH(LIS3DH_CS, LIS3DH_MOSI, LIS3DH_MISO, LIS3DH_CLK);
+//LIS3DH lis = LIS3DH(LIS3DH_CS, LIS3DH_MOSI, LIS3DH_MISO, LIS3DH_CLK);
 // hardware SPI
-Adafruit_LIS3DH lis = Adafruit_LIS3DH(LIS3DH_CS);
+LIS3DH lis = LIS3DH(LIS3DH_CS);
 // I2C
-//Adafruit_LIS3DH lis = Adafruit_LIS3DH();
+//LIS3DH lis = LIS3DH();
 
 void setup(void) {
 #ifndef ESP8266

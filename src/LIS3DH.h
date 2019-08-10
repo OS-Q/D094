@@ -5,8 +5,7 @@
 
 #include <SPI.h>
 #include <Wire.h>
-
-#include <Adafruit_Sensor.h>
+#include <Arduino_Sensor.h>
 
 /** I2C ADDRESS/BITS **/
 #define LIS3DH_DEFAULT_ADDRESS (0x18) // if SDO/SA0 is 3V, its 0x19
@@ -314,7 +313,7 @@ typedef enum {
  *  @brief  Class that stores state and functions for interacting with
  *          LIS3DH
  */
-class LIS3DH : public Adafruit_Sensor {
+class LIS3DH : public Arduino_Sensor {
 public:
   LIS3DH(TwoWire *Wi = &Wire);
   LIS3DH(int8_t cspin, SPIClass *theSPI = &SPI);
