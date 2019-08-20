@@ -1,8 +1,8 @@
 {
-  "name":   "motion",
-  "version":    "1.0.0",
-  "keywords":    "motion, axis",
-  "description": "motion Sensor",
+  "name":   "move",
+  "version":    "1.1.0",
+  "keywords":    "motion,move",
+  "description": "motion sensor",
   "authors":
   {
     "name":  "qitas",
@@ -12,7 +12,7 @@
   "repository":
   {
     "type": "git",
-    "url":  "https://github.com/OS-Q/D101.git"
+    "url":  "https://github.com/OS-Q/D94.git"
   },
 
   "frameworks": "arduino",
